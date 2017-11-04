@@ -1,0 +1,15 @@
+{
+  "name": "Dfs With Javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js Travis jeff.json marvin.json travis.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "lodash": "^4.17.4"
+  }
+}
