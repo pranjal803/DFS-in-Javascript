@@ -22,17 +22,14 @@ Promise.map(FILE_PATHS, (fileName)=>{
       if(_.indexOf(mainArr, friend.name) == -1){
         mainArr.push(friend.name);
         search(friend.name);
-      }
+      }      
     })
+    console.log(element);
   }
-
   
   mainArr.push(NAME);
   search(NAME);
-  
-  _.forEachRight(mainArr, (val)=>{
-    console.log(val);
-  })
+    
 })
 
 
